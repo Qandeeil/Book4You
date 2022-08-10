@@ -1,0 +1,240 @@
+.Main .Header {
+  animation: moveInDown 2s;
+}
+
+.Main .Header h1 {
+  font-size: 5rem;
+}
+
+.Main .Header p {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  letter-spacing: .1rem;
+  width: 70%;
+}
+
+.Main .search {
+  width: 100%;
+  animation: moveInRight 2s;
+  margin-top: 3rem;
+}
+
+.Main .search input {
+  width: 100%;
+  height: 3rem;
+  border: #976c64 1px solid;
+  border-radius: 15px;
+  padding-left: .5rem;
+  outline: none;
+  font-size: .9rem;
+  font-weight: bold;
+}
+
+.Main .search input::-webkit-input-placeholder {
+  color: #976c64;
+  font-weight: bold;
+  opacity: .6;
+}
+
+.Main .MainContent {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.Main .MainContent .optionLeft {
+  width: 32%;
+  margin-top: 2rem;
+  animation: moveInUp 2s;
+}
+
+.Main .MainContent .optionLeft ul {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.Main .MainContent .optionLeft ul li {
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: .8;
+  transition: .3s;
+  line-height: 2rem;
+}
+
+.Main .MainContent .optionLeft ul li:hover {
+  color: #CBB58B;
+}
+
+.Main .MainContent .optionRight {
+  width: 100%;
+  margin-left: 4rem;
+  height: 140vh;
+  overflow-y: scroll;
+}
+
+.Main .MainContent .optionRight::-webkit-scrollbar {
+  width: 15px;
+}
+
+.Main .MainContent .optionRight::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.Main .MainContent .optionRight::-webkit-scrollbar-thumb {
+  background-color: #976C64;
+  border-radius: 25px;
+}
+
+.Main .MainContent .optionRight .input {
+  width: 100 .Main .MainContent .optionRight .input;
+  animation: moveInDown 2s;
+}
+
+.Main .MainContent .optionRight .input input {
+  margin-left: 2.5rem;
+  width: 89%;
+  height: 2.5rem;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 4px;
+  border: 1px #CBB58B solid;
+  outline: none;
+  opacity: .9;
+  color: #46361a;
+  padding-left: 1rem;
+}
+
+.Main .MainContent .optionRight .image {
+  display: inline-block;
+  width: 33.33%;
+  margin-top: 2rem;
+  text-align: center;
+  animation: moveInLeft 2s;
+}
+
+.Main .MainContent .optionRight .image img {
+  width: 221px;
+  height: 320px;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+  transition: .4s;
+}
+
+.Main .MainContent .optionRight .image img:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.7);
+}
+
+.Main .MainContent .optionRight .image h1 {
+  margin: auto;
+  font-size: 17px;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.Main .MainContent .optionRight .image span {
+  display: inline-block;
+  cursor: pointer;
+  margin: .8rem;
+  transition: .4s;
+  opacity: .7;
+}
+
+.Main .MainContent .optionRight .image span:hover {
+  color: #CBB58B;
+  opacity: 1;
+}
+
+.Main .pop {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  z-index: 999;
+  animation: popDown .5s;
+}
+
+.Main .pop .boxPop {
+  background-color: #F2F2F2;
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+
+.Main .pop .boxPop .contentPop {
+  margin-top: 7%;
+}
+
+.Main .pop .boxPop .contentPop .contentImage {
+  width: 20%;
+}
+
+.Main .pop .boxPop .contentPop .contentImage img {
+  margin-left: 7%;
+  float: left;
+  width: 350px;
+  box-shadow: 1rem 1rem 4rem rgba(0, 0, 0, 0.2);
+}
+
+.Main .pop .boxPop .contentPop .text {
+  width: 50%;
+  float: left;
+  margin-left: 7%;
+}
+
+.Main .pop .boxPop .contentPop .text h1 {
+  font-size: 40px;
+  letter-spacing: .1rem;
+}
+
+.Main .pop .boxPop .contentPop .text .allInfo {
+  margin-top: 5%;
+  width: 100%;
+}
+
+.Main .pop .boxPop .contentPop .text .allInfo .infoName {
+  width: 40%;
+  height: 30vh;
+  float: left;
+}
+
+.Main .pop .boxPop .contentPop .text .allInfo .infoName h3 {
+  margin: 1rem 1rem;
+  opacity: .8;
+}
+
+.Main .pop .boxPop .contentPop .text .allInfo .infoRes {
+  width: 50%;
+  height: 30vh;
+  float: left;
+}
+
+.Main .pop .boxPop .contentPop .text .allInfo .infoRes h3 {
+  margin: 1rem 1rem;
+}
+
+.Main .pop .boxPop .contentPop .text p {
+  opacity: .9;
+  letter-spacing: .1rem;
+  line-height: 1.4rem;
+}
+
+.Main .pop .boxPop .Close {
+  position: absolute;
+  right: 16%;
+  top: 16%;
+  cursor: pointer;
+  width: 50px;
+}
+
+.Main .popShow {
+  display: flex;
+  animation: popDown 1s;
+}
+
+.Main .popHide {
+  display: none;
+}

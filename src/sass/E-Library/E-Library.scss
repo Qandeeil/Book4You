@@ -1,0 +1,85 @@
+.ELibrary{
+    & .Header{
+        width: 70%;
+        margin: 5rem auto;
+        animation: moveInDown 2s;
+        & .h1{
+            font-size: 5rem;
+            letter-spacing: .4rem;
+            opacity: .9;
+        }
+        & p{
+            margin: 1rem 0;
+            font-size: 2rem;
+            opacity: .7;
+            width: 90%;
+        }
+        & .images{
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            margin-top: 5rem;
+            & img{
+                box-shadow: 1rem 1rem 4rem rgba(0, 0, 0, 0.20);
+                transition: .4s;
+                &:hover{
+                    box-shadow: 1rem 1rem 4rem rgba(0, 0, 0, 0.50);
+                }
+            }
+            & h1{
+                font-size: 1.5rem;
+                margin: .4rem 0;
+            }
+            & span{
+                display: inline-block;
+                margin-top: 1.2rem;
+                opacity: .7;
+                transition: .4s;
+                cursor: pointer;
+                &:hover{
+                    color: #b88423;
+                }
+            }
+        }
+    }
+    & .DataBases{
+        background-color: #F2F2F2;
+        // height: 50vh;
+        & .content{
+            width: 80%;
+            margin: 1% auto;
+            display: flex;
+            & .Left{
+                margin: 4rem 0;
+            }
+            & .Right{
+                margin: 6rem;
+                & h1{
+                    font-size: 3rem;
+                    letter-spacing: .2rem;
+                    opacity: .9;
+                }
+                & p{
+                    margin: 2rem 0;
+                    opacity: .8;
+                }
+                & a{
+                    display: inline-block;
+                    background-color: #CBB58B;
+                    color: black;
+                    width: 11rem;
+                    height: 4rem;
+                    text-align: center;
+                    line-height: 4rem;
+                    font-size: 14px;
+                    border: 4px solid transparent;
+                    transition: .5s;
+                    &:hover{
+                        background-color: #fff;
+                        border: 4px solid #CBB58B;
+                    }
+                }
+            }
+        }
+    }
+}

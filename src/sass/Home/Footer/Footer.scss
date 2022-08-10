@@ -1,0 +1,38 @@
+footer{
+    background-color: black;
+    color: #fff;
+    height: 40vh;
+    position: relative;
+    & .logo{
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        & a{
+            margin: 0 1rem;
+            font-size: 30px;
+            color: #fff;
+            & img{
+                width: 70px;
+            }
+        }
+        & .textLogo{
+            text-transform: uppercase;
+            width: 20%;
+        }
+    }
+    & .paragraph{
+        position: absolute;
+        top: 62%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    & .Copyright{
+        position: absolute;
+        top: 91%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}

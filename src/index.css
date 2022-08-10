@@ -1,0 +1,1128 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Righteous', cursive; }
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace; }
+
+a {
+  text-decoration: none; }
+
+.componentWidth {
+  width: 80%;
+  margin: auto; }
+
+header {
+  background-image: url(/home/qandeeil/React/library/src/Components/Home/Header/imgHeader/background.jpg);
+  background-repeat: no-repeat;
+  height: 95vh; }
+  header .logo {
+    display: flex;
+    animation: moveInRight 2s; }
+    header .logo a {
+      display: inline-block;
+      margin: 0 1rem;
+      margin-top: 1.5rem;
+      color: #fff;
+      text-transform: uppercase; }
+    header .logo .textLogo {
+      line-height: 3rem;
+      text-align: center;
+      font-size: 20px; }
+  header nav {
+    position: relative;
+    height: 4rem;
+    line-height: 4rem;
+    top: 3rem;
+    left: 50%;
+    transform: translate(-50%); }
+    header nav ul {
+      list-style: none;
+      width: 70%;
+      margin: auto;
+      margin-top: -3%; }
+      header nav ul .linkPage {
+        height: 4rem;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 4%;
+        animation: moveInDown 2s; }
+        header nav ul .linkPage a {
+          color: #fff;
+          font-size: 22px;
+          transition: .2s; }
+          header nav ul .linkPage a:hover {
+            color: #976c64;
+            border-bottom: 5px #976c64 solid;
+            padding-bottom: 1rem; }
+        header nav ul .linkPage .active {
+          color: #976c64;
+          border-bottom: 5px #976c64 solid;
+          padding-bottom: 1rem; }
+  header .Content {
+    margin-top: 13%;
+    margin-left: 10%;
+    color: #fff; }
+    header .Content h1 {
+      font-size: 90px;
+      width: 70%;
+      opacity: .9;
+      animation: moveInRight 2s; }
+    header .Content p {
+      font-size: 17px;
+      animation: moveInLeft 2s; }
+    header .Content a {
+      display: inline-block;
+      margin-top: 3%;
+      width: 10rem;
+      height: 3rem;
+      line-height: 3rem;
+      background: #CBB58B;
+      font-size: 13px;
+      text-align: center;
+      color: #000;
+      transition: .5s;
+      animation: moveInUp 2s; }
+      header .Content a:hover {
+        background-color: #fff; }
+
+main .Section-1 {
+  margin-top: 3%; }
+  main .Section-1 .header {
+    text-align: center;
+    animation: moveInRight 2s; }
+    main .Section-1 .header h1 {
+      font-size: 40px; }
+    main .Section-1 .header p {
+      width: 7%;
+      margin: 2rem auto;
+      border-bottom: 6px gold solid;
+      border-radius: 25%; }
+  main .Section-1 .event-1 {
+    width: 80%;
+    margin: 1% auto;
+    animation: moveInDown 2s; }
+    main .Section-1 .event-1 .contentEvent .Paragraph {
+      width: 50%;
+      float: left; }
+      main .Section-1 .event-1 .contentEvent .Paragraph .paragraph1 {
+        opacity: .5; }
+      main .Section-1 .event-1 .contentEvent .Paragraph h1 {
+        margin: 2rem 0;
+        width: 80%;
+        font-size: 40px;
+        letter-spacing: .1rem; }
+      main .Section-1 .event-1 .contentEvent .Paragraph .paragraph2 {
+        width: 70%;
+        opacity: .9;
+        letter-spacing: .05rem;
+        line-height: 1.3rem; }
+      main .Section-1 .event-1 .contentEvent .Paragraph span {
+        display: inline-block;
+        margin-top: 5%;
+        font-size: 18px;
+        color: #CBB58B;
+        transition: .4s;
+        cursor: pointer; }
+        main .Section-1 .event-1 .contentEvent .Paragraph span:hover {
+          color: #968565; }
+  main .Section-1 .Allevent {
+    display: flex;
+    justify-content: center;
+    animation: moveInLeft 2s; }
+    main .Section-1 .Allevent span {
+      display: inline-block;
+      background-color: #F2F2F2;
+      text-align: center;
+      width: 20rem;
+      height: 4rem;
+      line-height: 4rem;
+      cursor: pointer;
+      opacity: .7;
+      transition: .5s;
+      border-radius: 15px;
+      margin: 0 1rem; }
+      main .Section-1 .Allevent span:hover {
+        background-color: #CBB58B;
+        opacity: .8; }
+  main .Section-1 .pop {
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    z-index: 999;
+    animation: popDown .7s; }
+    main .Section-1 .pop .boxPop {
+      background-color: #F2F2F2;
+      width: 70%;
+      height: 70%;
+      margin: auto; }
+      main .Section-1 .pop .boxPop .contentPop {
+        margin-top: 2%; }
+        main .Section-1 .pop .boxPop .contentPop .contentImage {
+          width: 50%;
+          float: left; }
+          main .Section-1 .pop .boxPop .contentPop .contentImage img {
+            margin-left: 2%;
+            width: 40rem;
+            box-shadow: 1rem 1rem 4rem rgba(0, 0, 0, 0.2); }
+        main .Section-1 .pop .boxPop .contentPop .text-Left {
+          text-align: center;
+          width: 100%;
+          margin-left: 2%;
+          margin-top: 1%; }
+          main .Section-1 .pop .boxPop .contentPop .text-Left h1 {
+            font-size: 40px;
+            letter-spacing: .1rem; }
+          main .Section-1 .pop .boxPop .contentPop .text-Left span {
+            margin-top: 1%;
+            margin-left: 2%;
+            opacity: .5;
+            letter-spacing: .1rem;
+            line-height: 1.4rem; }
+          main .Section-1 .pop .boxPop .contentPop .text-Left p {
+            margin-top: 4%; }
+        main .Section-1 .pop .boxPop .contentPop .text-Right {
+          float: left;
+          margin-left: 3%;
+          margin-top: 3%; }
+          main .Section-1 .pop .boxPop .contentPop .text-Right .infoName {
+            float: left;
+            margin-right: 2.5rem; }
+            main .Section-1 .pop .boxPop .contentPop .text-Right .infoName h3 {
+              margin: 1rem;
+              opacity: .9; }
+          main .Section-1 .pop .boxPop .contentPop .text-Right .infoRes {
+            float: left; }
+            main .Section-1 .pop .boxPop .contentPop .text-Right .infoRes h3 {
+              margin: 1rem;
+              opacity: .8; }
+      main .Section-1 .pop .boxPop .Close {
+        position: absolute;
+        right: 16%;
+        top: 16%;
+        cursor: pointer;
+        width: 50px; }
+  main .Section-1 .popShow {
+    display: flex;
+    animation: popDown 1s; }
+  main .Section-1 .popHide {
+    display: none; }
+
+.show {
+  display: block;
+  animation: moveInDown 2s; }
+
+.hide {
+  display: none; }
+
+.Section-2 {
+  margin-top: 7%;
+  background-color: #F2F2F2;
+  position: relative;
+  height: 80vh; }
+  .Section-2 .title {
+    max-height: 0;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .Section-2 .title h1 {
+      font-size: 50px; }
+    .Section-2 .title p {
+      border-bottom: 7px gold solid;
+      width: 5rem;
+      border-radius: 20px;
+      margin-top: 1rem;
+      margin-left: 50%;
+      transform: translate(-50%); }
+  .Section-2 .allBook {
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    width: 100%; }
+    .Section-2 .allBook .book {
+      margin: auto;
+      max-height: 0;
+      width: 20%; }
+      .Section-2 .allBook .book img {
+        box-shadow: 0px 0px .7rem 0;
+        transition: .4s; }
+        .Section-2 .allBook .book img:hover {
+          box-shadow: 0px 0px 2rem 0;
+          transform: scale(1.02); }
+      .Section-2 .allBook .book h1 {
+        font-size: 20px;
+        margin: auto;
+        margin-top: 1rem;
+        width: 100%;
+        text-align: center; }
+      .Section-2 .allBook .book p {
+        font-size: 15px;
+        opacity: .9; }
+      .Section-2 .allBook .book span {
+        display: inline-block;
+        margin-top: 1rem;
+        cursor: pointer;
+        color: #968565;
+        transition: .5s; }
+        .Section-2 .allBook .book span:hover {
+          color: #444340;
+          transform: scale(1.1); }
+  .Section-2 .pop {
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    z-index: 999;
+    animation: popDown .5s; }
+    .Section-2 .pop .boxPop {
+      background-color: #F2F2F2;
+      width: 70%;
+      height: 70%;
+      margin: auto; }
+      .Section-2 .pop .boxPop .contentPop {
+        margin-top: 7%; }
+        .Section-2 .pop .boxPop .contentPop .contentImage {
+          width: 20%; }
+          .Section-2 .pop .boxPop .contentPop .contentImage img {
+            margin-left: 7%;
+            float: left;
+            width: 350px;
+            box-shadow: 1rem 1rem 4rem rgba(0, 0, 0, 0.2); }
+        .Section-2 .pop .boxPop .contentPop .text {
+          width: 50%;
+          float: left;
+          margin-left: 7%; }
+          .Section-2 .pop .boxPop .contentPop .text h1 {
+            font-size: 40px;
+            letter-spacing: .1rem; }
+          .Section-2 .pop .boxPop .contentPop .text .allInfo {
+            margin-top: 5%;
+            width: 100%; }
+            .Section-2 .pop .boxPop .contentPop .text .allInfo .infoName {
+              width: 40%;
+              height: 30vh;
+              float: left; }
+              .Section-2 .pop .boxPop .contentPop .text .allInfo .infoName h3 {
+                margin: 1rem 1rem;
+                opacity: .8; }
+            .Section-2 .pop .boxPop .contentPop .text .allInfo .infoRes {
+              width: 50%;
+              height: 30vh;
+              float: left; }
+              .Section-2 .pop .boxPop .contentPop .text .allInfo .infoRes h3 {
+                margin: 1rem 1rem; }
+          .Section-2 .pop .boxPop .contentPop .text p {
+            opacity: .9;
+            letter-spacing: .1rem;
+            line-height: 1.4rem; }
+      .Section-2 .pop .boxPop .Close {
+        position: absolute;
+        right: 16%;
+        top: 16%;
+        cursor: pointer;
+        width: 50px; }
+  .Section-2 .popShow {
+    display: flex;
+    animation: popDown 1s; }
+  .Section-2 .popHide {
+    display: none; }
+
+.Section-3 {
+  background-image: url(/home/qandeeil/React/library/src/sass/Home/Main/HistoryDay/image/background.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh; }
+  .Section-3 .content {
+    width: 40%;
+    float: right;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75); }
+    .Section-3 .content .text {
+      color: #fff;
+      width: 70%;
+      margin-top: 20%;
+      transform: translate(4rem, -50%);
+      max-height: 0; }
+      .Section-3 .content .text h1 {
+        font-size: 42px;
+        letter-spacing: .2rem; }
+      .Section-3 .content .text h2 {
+        font-size: 32px;
+        margin: 3rem 0; }
+      .Section-3 .content .text p {
+        margin: 1.5rem 0;
+        line-height: 1.6rem;
+        letter-spacing: .05rem; }
+
+.NameBook {
+  transition: .5s;
+  cursor: pointer; }
+  .NameBook:hover {
+    transform: scale(1.03);
+    color: #4b3b0e; }
+
+.Section-4 {
+  background-color: #F2F2F2;
+  height: 50vh; }
+  .Section-4 .title {
+    height: 10vh;
+    top: 20%;
+    transform: translate(0, 80%); }
+    .Section-4 .title h1 {
+      text-align: center;
+      font-size: 40px; }
+    .Section-4 .title p {
+      border: 4px solid;
+      border-radius: 20px;
+      width: 5rem;
+      margin: 1rem auto; }
+  .Section-4 .allBox {
+    top: 20%;
+    transform: translate(0, 50%);
+    width: 70%;
+    margin: 2rem auto;
+    display: flex; }
+    .Section-4 .allBox .Box {
+      margin: 0 1rem; }
+      .Section-4 .allBox .Box p:first-child {
+        opacity: .6; }
+      .Section-4 .allBox .Box h1 {
+        margin: 1rem 0;
+        cursor: pointer;
+        transition: .5s; }
+        .Section-4 .allBox .Box h1:hover {
+          transform: scale(1.03);
+          color: #4b3b0e; }
+      .Section-4 .allBox .Box p:last-child {
+        opacity: .9; }
+
+.Section-5 {
+  background-image: url(/home/qandeeil/React/library/src/sass/Home/Main/Newsletter/images/background.jpg);
+  height: 60vh;
+  background-attachment: fixed;
+  position: relative; }
+  .Section-5 .Content {
+    color: #fff;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+    .Section-5 .Content h1 {
+      font-size: 8rem; }
+    .Section-5 .Content p {
+      margin: -20px 0; }
+    .Section-5 .Content input {
+      outline: none;
+      border: 3px solid #4b3b0e;
+      border-radius: 13px;
+      margin-top: 5rem;
+      width: 18rem;
+      height: 2.5rem;
+      padding-left: 5px;
+      font-weight: bold; }
+      .Section-5 .Content input::-webkit-input-placeholder {
+        font-size: 15px;
+        padding-left: 10px;
+        color: #4b3b0e;
+        opacity: .7; }
+    .Section-5 .Content button {
+      margin-left: 2%;
+      margin-top: 2%;
+      width: 8rem;
+      height: 3rem;
+      border-radius: 15px;
+      border: 3px solid #4b3b0e;
+      cursor: pointer;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      font-size: 15px;
+      transition: .6s; }
+      .Section-5 .Content button:hover {
+        background-color: transparent;
+        color: #fff;
+        border: 3px solid #fff; }
+
+.MainContacts {
+  margin: auto;
+  margin-top: 4rem;
+  width: 70%; }
+  .MainContacts .content {
+    display: flex;
+    justify-content: space-around; }
+    .MainContacts .content .left {
+      width: 50%;
+      margin-top: 6rem; }
+      .MainContacts .content .left h1 {
+        font-size: 5rem; }
+      .MainContacts .content .left .contacts {
+        margin-top: 3rem; }
+        .MainContacts .content .left .contacts p {
+          margin: .5rem 0; }
+        .MainContacts .content .left .contacts span {
+          opacity: .5;
+          transition: .4s;
+          cursor: pointer; }
+          .MainContacts .content .left .contacts span:hover {
+            opacity: 1;
+            color: #CBB58B; }
+      .MainContacts .content .left .icon {
+        margin: 1.7rem 0; }
+        .MainContacts .content .left .icon a {
+          text-align: center;
+          margin: 0 .7rem; }
+          .MainContacts .content .left .icon a img:hover {
+            transition: .2s;
+            transform: scale(1.2); }
+
+footer {
+  background-color: black;
+  color: #fff;
+  height: 40vh;
+  position: relative; }
+  footer .logo {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex; }
+    footer .logo a {
+      margin: 0 1rem;
+      font-size: 30px;
+      color: #fff; }
+      footer .logo a img {
+        width: 70px; }
+    footer .logo .textLogo {
+      text-transform: uppercase;
+      width: 20%; }
+  footer .paragraph {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
+  footer .Copyright {
+    position: absolute;
+    top: 91%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.HeaderAbout {
+  background: none;
+  height: 10vh; }
+  .HeaderAbout .ContentAbout {
+    margin: auto;
+    width: 70%;
+    border: 1px transparent solid;
+    height: 10vh; }
+    .HeaderAbout .ContentAbout .About {
+      float: left; }
+      .HeaderAbout .ContentAbout .About a {
+        color: black; }
+    .HeaderAbout .ContentAbout .componentWidth {
+      margin-left: 30%;
+      margin-top: -4.5%; }
+      .HeaderAbout .ContentAbout .componentWidth a {
+        color: black; }
+        .HeaderAbout .ContentAbout .componentWidth a:hover {
+          color: #976C64; }
+      .HeaderAbout .ContentAbout .componentWidth .active {
+        color: #855d56; }
+
+main .aboutUs {
+  margin: auto;
+  margin-top: 5%;
+  width: 90%; }
+  main .aboutUs .text {
+    width: 40%;
+    float: left;
+    animation: moveInRight 2s; }
+    main .aboutUs .text h1 {
+      font-size: 80px;
+      margin-top: 10%;
+      text-align: center;
+      opacity: .9;
+      letter-spacing: .3rem; }
+    main .aboutUs .text h3 {
+      font-size: 20px;
+      margin: 1.5rem 0;
+      opacity: .8; }
+    main .aboutUs .text p {
+      opacity: .7;
+      letter-spacing: .1rem;
+      line-height: 1.3rem; }
+  main .aboutUs .image {
+    animation: moveInLeft 2s; }
+    main .aboutUs .image img {
+      margin-left: 4rem; }
+
+main .Number {
+  margin-top: 5%;
+  background-image: url(/home/qandeeil/React/library/src/Components/About/Main/images/image-1.jpg);
+  height: 50vh;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: moveInDown 2s; }
+  main .Number .content {
+    display: flex;
+    text-align: center; }
+    main .Number .content .counter {
+      justify-content: space-around;
+      color: #fff;
+      margin: 0 2rem; }
+      main .Number .content .counter h1 {
+        font-size: 7rem;
+        opacity: .9; }
+      main .Number .content .counter .line {
+        border: 4px #fff solid;
+        border-radius: 25px;
+        width: 30%;
+        margin: auto;
+        margin-bottom: .5rem; }
+      main .Number .content .counter p {
+        font-size: 20px;
+        opacity: .7; }
+
+main .OurServices {
+  width: 70%;
+  margin: auto;
+  margin-top: 4%;
+  height: 50vh; }
+  main .OurServices .text {
+    float: left; }
+    main .OurServices .text h1 {
+      font-size: 50px; }
+    main .OurServices .text p {
+      margin: 2rem 0;
+      width: 80%;
+      opacity: .8; }
+    main .OurServices .text .left {
+      list-style: circle;
+      float: left;
+      width: 50%; }
+      main .OurServices .text .left li {
+        opacity: .6;
+        margin-bottom: .2rem; }
+    main .OurServices .text .right {
+      list-style: circle;
+      float: left;
+      width: 50%; }
+      main .OurServices .text .right li {
+        opacity: .7;
+        margin-bottom: .2rem; }
+  main .OurServices a {
+    display: inline-block;
+    margin-top: 35%;
+    margin-left: -104%;
+    color: black;
+    background-color: #CBB58B;
+    width: 9rem;
+    height: 3.5rem;
+    text-align: center;
+    line-height: 3.5rem;
+    transition: .7s;
+    border: 4px solid transparent;
+    color: #fff;
+    font-weight: bold; }
+    main .OurServices a:hover {
+      background-color: #fff;
+      border: 4px solid #CBB58B;
+      color: #CBB58B; }
+  main .OurServices .image {
+    display: flex;
+    justify-content: center; }
+
+main .Threeimage {
+  display: flex;
+  justify-content: space-around; }
+  main .Threeimage img {
+    cursor: pointer;
+    transition: .5s; }
+    main .Threeimage img:hover {
+      opacity: .8; }
+
+.mainWidth {
+  width: 68.5%;
+  margin: 5rem auto; }
+  .mainWidth .title {
+    font-size: 3rem;
+    opacity: .9;
+    animation: moveInDown 2s; }
+  .mainWidth .content {
+    margin-top: 3rem; }
+    .mainWidth .content .BoxLeft {
+      margin: 3rem 0;
+      animation: moveInLeft 2s; }
+      .mainWidth .content .BoxLeft .text {
+        width: 50%;
+        float: left; }
+        .mainWidth .content .BoxLeft .text h1 {
+          width: 80%;
+          font-size: 3rem;
+          margin: 1rem;
+          opacity: .9; }
+        .mainWidth .content .BoxLeft .text p {
+          width: 80%;
+          margin: 0 1rem; }
+        .mainWidth .content .BoxLeft .text a {
+          display: inline-block;
+          margin: 2rem 1rem;
+          color: #685430;
+          font-weight: bold;
+          transition: .4s; }
+          .mainWidth .content .BoxLeft .text a:hover {
+            color: #302512; }
+    .mainWidth .content .BoxRight {
+      animation: moveInRight 2s; }
+      .mainWidth .content .BoxRight .text {
+        width: 50%;
+        float: right; }
+        .mainWidth .content .BoxRight .text h1 {
+          width: 80%;
+          font-size: 3rem;
+          margin: 1rem;
+          opacity: .9; }
+        .mainWidth .content .BoxRight .text p {
+          width: 80%;
+          margin: 0 1rem; }
+        .mainWidth .content .BoxRight .text a {
+          display: inline-block;
+          margin: 2rem 1rem;
+          color: #685430;
+          font-weight: bold;
+          transition: .4s; }
+          .mainWidth .content .BoxRight .text a:hover {
+            color: #302512; }
+
+.Main .Header {
+  animation: moveInDown 2s; }
+  .Main .Header h1 {
+    font-size: 5rem; }
+  .Main .Header p {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    letter-spacing: .1rem;
+    width: 70%; }
+
+.Main .search {
+  width: 100%;
+  animation: moveInRight 2s;
+  margin-top: 3rem; }
+  .Main .search input {
+    width: 100%;
+    height: 3rem;
+    border: #976c64 1px solid;
+    border-radius: 15px;
+    padding-left: .5rem;
+    outline: none;
+    font-size: .9rem;
+    font-weight: bold; }
+    .Main .search input::-webkit-input-placeholder {
+      color: #976c64;
+      font-weight: bold;
+      opacity: .6; }
+
+.Main .MainContent {
+  display: flex;
+  margin-top: 1rem; }
+  .Main .MainContent .optionLeft {
+    width: 32%;
+    margin-top: 2rem;
+    animation: moveInUp 2s; }
+    .Main .MainContent .optionLeft ul {
+      list-style: none;
+      text-transform: uppercase; }
+      .Main .MainContent .optionLeft ul li {
+        color: black;
+        font-size: 20px;
+        cursor: pointer;
+        opacity: .8;
+        transition: .3s;
+        line-height: 2rem; }
+        .Main .MainContent .optionLeft ul li:hover {
+          color: #CBB58B; }
+  .Main .MainContent .optionRight {
+    width: 100%;
+    margin-left: 4rem;
+    height: 140vh;
+    overflow-y: scroll; }
+    .Main .MainContent .optionRight::-webkit-scrollbar {
+      width: 15px; }
+    .Main .MainContent .optionRight::-webkit-scrollbar-track {
+      background-color: transparent; }
+    .Main .MainContent .optionRight::-webkit-scrollbar-thumb {
+      background-color: #976C64;
+      border-radius: 25px; }
+    .Main .MainContent .optionRight .input {
+      width: 100 .Main .MainContent .optionRight .input;
+      animation: moveInDown 2s; }
+      .Main .MainContent .optionRight .input input {
+        margin-left: 2.5rem;
+        width: 89%;
+        height: 2.5rem;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 4px;
+        border: 1px #CBB58B solid;
+        outline: none;
+        opacity: .9;
+        color: #46361a;
+        padding-left: 1rem; }
+    .Main .MainContent .optionRight .image {
+      display: inline-block;
+      width: 33.33%;
+      margin-top: 2rem;
+      text-align: center;
+      animation: moveInLeft 2s; }
+      .Main .MainContent .optionRight .image img {
+        width: 221px;
+        height: 320px;
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+        transition: .4s; }
+        .Main .MainContent .optionRight .image img:hover {
+          transform: scale(1.01);
+          box-shadow: 0 0 2rem rgba(0, 0, 0, 0.7); }
+      .Main .MainContent .optionRight .image h1 {
+        margin: auto;
+        font-size: 17px;
+        width: 100%;
+        margin-top: 1rem; }
+      .Main .MainContent .optionRight .image span {
+        display: inline-block;
+        cursor: pointer;
+        margin: .8rem;
+        transition: .4s;
+        opacity: .7; }
+        .Main .MainContent .optionRight .image span:hover {
+          color: #CBB58B;
+          opacity: 1; }
+
+.Main .pop {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  z-index: 999;
+  animation: popDown .5s; }
+  .Main .pop .boxPop {
+    background-color: #F2F2F2;
+    width: 70%;
+    height: 70%;
+    margin: auto; }
+    .Main .pop .boxPop .contentPop {
+      margin-top: 7%; }
+      .Main .pop .boxPop .contentPop .contentImage {
+        width: 20%; }
+        .Main .pop .boxPop .contentPop .contentImage img {
+          margin-left: 7%;
+          float: left;
+          width: 350px;
+          box-shadow: 1rem 1rem 4rem rgba(0, 0, 0, 0.2); }
+      .Main .pop .boxPop .contentPop .text {
+        width: 50%;
+        float: left;
+        margin-left: 7%; }
+        .Main .pop .boxPop .contentPop .text h1 {
+          font-size: 40px;
+          letter-spacing: .1rem; }
+        .Main .pop .boxPop .contentPop .text .allInfo {
+          margin-top: 5%;
+          width: 100%; }
+          .Main .pop .boxPop .contentPop .text .allInfo .infoName {
+            width: 40%;
+            height: 30vh;
+            float: left; }
+            .Main .pop .boxPop .contentPop .text .allInfo .infoName h3 {
+              margin: 1rem 1rem;
+              opacity: .8; }
+          .Main .pop .boxPop .contentPop .text .allInfo .infoRes {
+            width: 50%;
+            height: 30vh;
+            float: left; }
+            .Main .pop .boxPop .contentPop .text .allInfo .infoRes h3 {
+              margin: 1rem 1rem; }
+        .Main .pop .boxPop .contentPop .text p {
+          opacity: .9;
+          letter-spacing: .1rem;
+          line-height: 1.4rem; }
+    .Main .pop .boxPop .Close {
+      position: absolute;
+      right: 16%;
+      top: 16%;
+      cursor: pointer;
+      width: 50px; }
+
+.Main .popShow {
+  display: flex;
+  animation: popDown 1s; }
+
+.Main .popHide {
+  display: none; }
+
+.ELibrary .Header {
+  width: 70%;
+  margin: 5rem auto;
+  animation: moveInDown 2s; }
+  .ELibrary .Header .h1 {
+    font-size: 5rem;
+    letter-spacing: .4rem;
+    opacity: .9; }
+  .ELibrary .Header p {
+    margin: 1rem 0;
+    font-size: 2rem;
+    opacity: .7;
+    width: 90%; }
+  .ELibrary .Header .images {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 5rem; }
+    .ELibrary .Header .images img {
+      box-shadow: 1rem 1rem 4rem rgba(0, 0, 0, 0.2);
+      transition: .4s; }
+      .ELibrary .Header .images img:hover {
+        box-shadow: 1rem 1rem 4rem rgba(0, 0, 0, 0.5); }
+    .ELibrary .Header .images h1 {
+      font-size: 1.5rem;
+      margin: .4rem 0; }
+    .ELibrary .Header .images span {
+      display: inline-block;
+      margin-top: 1.2rem;
+      opacity: .7;
+      transition: .4s;
+      cursor: pointer; }
+      .ELibrary .Header .images span:hover {
+        color: #b88423; }
+
+.ELibrary .DataBases {
+  background-color: #F2F2F2; }
+  .ELibrary .DataBases .content {
+    width: 80%;
+    margin: 1% auto;
+    display: flex; }
+    .ELibrary .DataBases .content .Left {
+      margin: 4rem 0; }
+    .ELibrary .DataBases .content .Right {
+      margin: 6rem; }
+      .ELibrary .DataBases .content .Right h1 {
+        font-size: 3rem;
+        letter-spacing: .2rem;
+        opacity: .9; }
+      .ELibrary .DataBases .content .Right p {
+        margin: 2rem 0;
+        opacity: .8; }
+      .ELibrary .DataBases .content .Right a {
+        display: inline-block;
+        background-color: #CBB58B;
+        color: black;
+        width: 11rem;
+        height: 4rem;
+        text-align: center;
+        line-height: 4rem;
+        font-size: 14px;
+        border: 4px solid transparent;
+        transition: .5s; }
+        .ELibrary .DataBases .content .Right a:hover {
+          background-color: #fff;
+          border: 4px solid #CBB58B; }
+
+.Main {
+  width: 70%;
+  margin: 8rem auto; }
+  .Main .title {
+    font-size: 2.5rem; }
+  .Main .Content {
+    margin-top: 3rem; }
+    .Main .Content .text {
+      display: flex;
+      flex-direction: column; }
+    .Main .Content h1 {
+      font-size: 25px;
+      margin: 2rem 0;
+      cursor: pointer; }
+    .Main .Content p {
+      margin: 1rem;
+      opacity: .8; }
+  .Main .after::after {
+    float: right;
+    font-size: 1.5rem;
+    content: "+";
+    height: 4rem;
+    line-height: 4rem; }
+  .Main .before::before {
+    float: right;
+    font-size: 1.5rem;
+    content: "-";
+    height: 4rem;
+    line-height: 4rem; }
+
+.show {
+  display: block; }
+
+.hide {
+  display: none; }
+
+@keyframes moveInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100px); }
+  50% {
+    transform: translateY(-10px); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px); }
+  50% {
+    transform: translateX(10px); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px); }
+  50% {
+    transform: translateY(10px); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(100px); }
+  50% {
+    transform: translateX(-10px); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes popDown {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@media (max-width: 1423px) {
+  header .Content h1 {
+    font-size: 62px; } }
+
+@media (max-width: 1184px) {
+  header nav ul {
+    width: 100%; }
+    header nav ul .linkPage a {
+      color: #fff;
+      font-size: 20px;
+      transition: .2s; } }
+
+@media (max-width: 980px) {
+  header .Content h1 {
+    margin-top: 19%;
+    font-size: 50px; }
+  header nav ul {
+    width: 100%;
+    margin-top: 10%; }
+    header nav ul .linkPage a {
+      color: #fff;
+      font-size: 20px;
+      transition: .2s; } }
+
+@media (max-width: 762px) {
+  header .Content h1 {
+    margin-top: 26%;
+    font-size: 40px; }
+  header .Content p {
+    width: 70%; }
+  header nav ul {
+    width: 100%;
+    margin-top: 10%; }
+    header nav ul .linkPage a {
+      color: #fff;
+      font-size: 17px;
+      transition: .2s; } }
+
+@media (max-width: 640px) {
+  header .Content h1 {
+    margin-top: 33%;
+    font-size: 40px; }
+  header .Content p {
+    margin-top: 5%;
+    width: 70%; }
+  header .Content a {
+    margin-top: 10%; }
+  header nav ul {
+    width: 100%;
+    margin-top: 10%; }
+    header nav ul .linkPage a {
+      font-size: 14px;
+      margin: 0 16px; } }
+
+@media (max-width: 576px) {
+  header .Content h1 {
+    margin-top: 33%;
+    font-size: 40px;
+    width: 100%; }
+  header .Content p {
+    margin-top: 5%;
+    width: 70%; }
+  header .Content a {
+    margin-top: 10%; }
+  header nav ul {
+    width: 100%;
+    margin-top: 10%; }
+    header nav ul .linkPage a {
+      font-size: 11px;
+      margin: 0 16px; } }
+
+@media (max-width: 500px) {
+  header .Content h1 {
+    margin-top: 33%;
+    font-size: 40px;
+    width: 100%; }
+  header .Content p {
+    margin-top: 5%;
+    width: 70%; }
+  header .Content a {
+    margin-top: 10%; }
+  header nav ul {
+    width: 100%;
+    margin-top: 10%;
+    position: fixed;
+    height: 10rem; }
+    header nav ul .linkPage {
+      width: 100%;
+      margin-left: -10%; }
+      header nav ul .linkPage a {
+        font-size: 11px;
+        margin: 0 14px; } }

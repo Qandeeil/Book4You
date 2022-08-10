@@ -1,0 +1,67 @@
+.mainWidth{
+    width: 68.5%;
+    margin: 5rem auto;
+    & .title{
+        font-size: 3rem;
+        opacity: .9;
+        animation: moveInDown 2s;
+    }
+    & .content{
+        margin-top: 3rem;
+        & .BoxLeft{
+            margin: 3rem 0;
+            animation: moveInLeft 2s;
+            & .text{
+                width: 50%;
+                float: left;
+                & h1{
+                    width: 80%;
+                    font-size: 3rem;
+                    margin: 1rem;
+                    opacity: .9;
+                }
+                & p{
+                    width: 80%;
+                    margin: 0 1rem;
+                }
+                & a{
+                    display: inline-block;
+                    margin: 2rem 1rem;
+                    color: #685430;
+                    font-weight: bold;
+                    transition: .4s;
+                    &:hover{
+                        color: #302512;
+                    }
+                }
+            }
+        }
+        & .BoxRight{
+            animation: moveInRight 2s;
+            & .text{
+                width: 50%;
+                float: right;
+                & h1{
+                    width: 80%;
+                    font-size: 3rem;
+                    margin: 1rem;
+                    opacity: .9;
+                }
+                & p{
+                    width: 80%;
+                    margin: 0 1rem;
+                }
+                & a{
+                    display: inline-block;
+                    margin: 2rem 1rem;
+                    color: #685430;
+                    font-weight: bold;
+                    transition: .4s;
+                    &:hover{
+                        color: #302512;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+.NameBook{
+    transition: .5s;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.03);
+        color: #4b3b0e;
+    }
+}

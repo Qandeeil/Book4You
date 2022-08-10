@@ -1,0 +1,33 @@
+.Section-3{
+    background-image: url(/home/qandeeil/React/library/src/sass/Home/Main/HistoryDay/image/background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    & .content{
+        width: 40%;
+        float: right;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.75);
+        & .text{
+            color: #fff;
+            width: 70%;
+            margin-top: 20%;
+            transform: translate(4rem , -50%);
+            max-height: 0;
+            & h1{
+                font-size: 42px;
+                letter-spacing: .2rem;
+            }
+            & h2{
+                font-size: 32px;
+                margin: 3rem 0;
+            }
+            & p{
+                margin: 1.5rem 0;
+                line-height: 1.6rem;
+                letter-spacing: .05rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.MainContacts{
+    margin: auto;
+    margin-top: 4rem;
+    width: 70%;
+    & .content{
+        display: flex;
+        justify-content: space-around;
+        & .left{
+            width: 50%;
+            margin-top: 6rem;
+            & h1{
+                font-size: 5rem;
+            }
+            & .contacts{
+                margin-top: 3rem;
+                & p{
+                    margin: .5rem 0;
+                }
+                & span{
+                    opacity: .5;
+                    transition: .4s;
+                    cursor: pointer;
+                    &:hover{
+                        opacity: 1;
+                        color: #CBB58B;
+                    }
+                }
+            }
+            & .icon{
+                margin: 1.7rem 0;
+                & a{
+                    text-align: center;
+                    margin: 0 .7rem;
+                    & img:hover{
+                        transition: .2s;
+                        transform: scale(1.2);
+                    }
+                }
+            }
+        }
+        .Right{
+            
+        }
+    }
+}

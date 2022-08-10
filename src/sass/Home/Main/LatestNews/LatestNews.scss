@@ -1,0 +1,44 @@
+.Section-4{
+    background-color: #F2F2F2;
+    height: 50vh;
+    & .title{
+        height: 10vh;
+        top: 20%;
+        transform: translate(0 , 80%);
+        & h1{
+            text-align: center;
+            font-size: 40px;
+        }
+        & p{
+            border: 4px solid;
+            border-radius: 20px;
+            width: 5rem;
+            margin: 1rem auto;
+        }
+    }
+    & .allBox{
+        top: 20%;
+        transform: translate(0 , 50%);
+        width: 70%;
+        margin: 2rem auto;
+        display: flex;
+        & .Box{
+            margin: 0 1rem;
+            & p:first-child{
+                opacity: .6;
+            }
+            & h1{
+                margin: 1rem 0;
+                cursor: pointer;
+                transition: .5s;
+                &:hover{
+                    transform: scale(1.03);
+                    color: #4b3b0e;
+                }
+            }
+            & p:last-child{
+                opacity: .9;
+            }
+        }
+    }
+}
