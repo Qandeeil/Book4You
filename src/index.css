@@ -20,7 +20,8 @@ a {
   margin: auto; }
 
 header {
-  background-image: url(/home/qandeeil/React/library/src/Components/Home/Header/imgHeader/background.jpg);
+  background-image: url(https://demo.try-builder.com/site/03/00r/bj/0300rbjkcfk5k1ga/mt-content/uploads/2018/07/mt-1519-blog-img-3.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   height: 95vh; }
   header .logo {
@@ -348,7 +349,8 @@ main .Section-1 {
     display: none; }
 
 .Section-3 {
-  background-image: url(/home/qandeeil/React/library/src/sass/Home/Main/HistoryDay/image/background.jpg);
+  background-image: url(https://demo.try-builder.com/site/03/00r/bj/0300rbjkcfk5k1ga/mt-content/uploads/2018/07/mt-1519-blog-img-6.jpg);
+  background-size: cover;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -418,7 +420,8 @@ main .Section-1 {
         opacity: .9; }
 
 .Section-5 {
-  background-image: url(/home/qandeeil/React/library/src/sass/Home/Main/Newsletter/images/background.jpg);
+  background-image: url(https://demo.try-builder.com/site/03/00r/bj/0300rbjkcfk5k1ga/mt-content/uploads/2018/07/mt-1519-blog-img-8.jpg);
+  background-size: cover;
   height: 60vh;
   background-attachment: fixed;
   position: relative; }
@@ -578,7 +581,8 @@ main .aboutUs {
 
 main .Number {
   margin-top: 5%;
-  background-image: url(/home/qandeeil/React/library/src/Components/About/Main/images/image-1.jpg);
+  background-image: url(https://demo.try-builder.com/site/03/00r/bj/0300rbjkcfk5k1ga/mt-content/uploads/2018/07/mt-1519-blog-img-4.jpg);
+  background-size: cover;
   height: 50vh;
   background-attachment: fixed;
   display: flex;
@@ -776,7 +780,7 @@ main .Threeimage {
       background-color: #976C64;
       border-radius: 25px; }
     .Main .MainContent .optionRight .input {
-      width: 100 .Main .MainContent .optionRight .input;
+      width: 100%;
       animation: moveInDown 2s; }
       .Main .MainContent .optionRight .input input {
         margin-left: 2.5rem;
